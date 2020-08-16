@@ -28,7 +28,7 @@ class App extends Component {
             <Grid.Column width={3} style={tempStyle} >
               <QuizlistContainer />
             </Grid.Column>
-            <Grid.Column width={13} className={"test"}>
+            <Grid.Column width={13}>
               <QuizdetailContainer />
             </Grid.Column>
           </Grid.Row>

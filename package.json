@@ -74,7 +74,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -159,5 +161,9 @@
         }
       ]
     ]
+  },
+  "homepage": "http://2myungho.github.io/React-Team-project",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
