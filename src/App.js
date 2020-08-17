@@ -21,7 +21,7 @@ class App extends Component {
       margin:"0px"
     }
     return (
-      <Wrap style={tempStyle} >
+      <Wrap style={tempStyle} className={"navStyle"} >
         <Nav/>
         <Grid columns={2} divided  style={marginRemove} >
           <Grid.Row  style={tempStyle} >
