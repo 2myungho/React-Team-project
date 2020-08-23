@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b14d87e76f14ebe4304cc22115d8f96e",
+    "revision": "a609d4199eabf51091fca3824789ff77",
     "url": "/React-Team-project/index.html"
   },
   {
-    "revision": "1c654e05916dac506507",
+    "revision": "80bfcf5282953395f5f6",
     "url": "/React-Team-project/static/css/2.6ae34b62.chunk.css"
   },
   {
-    "revision": "4f25cefb13290710698d",
+    "revision": "578336b235d003a35757",
     "url": "/React-Team-project/static/css/main.1b0be34b.chunk.css"
   },
   {
-    "revision": "1c654e05916dac506507",
-    "url": "/React-Team-project/static/js/2.6b485954.chunk.js"
+    "revision": "80bfcf5282953395f5f6",
+    "url": "/React-Team-project/static/js/2.3d593198.chunk.js"
   },
   {
     "revision": "eb9a41d2c405db40c59cb30a8d8b351e",
-    "url": "/React-Team-project/static/js/2.6b485954.chunk.js.LICENSE.txt"
+    "url": "/React-Team-project/static/js/2.3d593198.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4f25cefb13290710698d",
-    "url": "/React-Team-project/static/js/main.9d81680b.chunk.js"
+    "revision": "578336b235d003a35757",
+    "url": "/React-Team-project/static/js/main.18042102.chunk.js"
   },
   {
     "revision": "2e95cabb421fc9592534",
@@ -102,5 +102,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/React-Team-project/static/media/outline-icons.ef60a4f6.woff"
+  },
+  {
+    "revision": "da8d52c5a61f95c4af53ae0d83068f10",
+    "url": "/React-Team-project/static/media/quiz1.da8d52c5.jpg"
+  },
+  {
+    "revision": "5acf5d6cdc90e26c9be08e5bbb207c3c",
+    "url": "/React-Team-project/static/media/quiz2.5acf5d6c.jpg"
+  },
+  {
+    "revision": "99b677d9fea6071e5b9684670d2c969e",
+    "url": "/React-Team-project/static/media/quiz3.99b677d9.jpg"
   }
 ]);

@@ -1,29 +1,32 @@
 {
   "files": {
     "main.css": "/React-Team-project/static/css/main.1b0be34b.chunk.css",
-    "main.js": "/React-Team-project/static/js/main.9d81680b.chunk.js",
-    "main.js.map": "/React-Team-project/static/js/main.9d81680b.chunk.js.map",
+    "main.js": "/React-Team-project/static/js/main.18042102.chunk.js",
+    "main.js.map": "/React-Team-project/static/js/main.18042102.chunk.js.map",
     "runtime-main.js": "/React-Team-project/static/js/runtime-main.c847077c.js",
     "runtime-main.js.map": "/React-Team-project/static/js/runtime-main.c847077c.js.map",
     "static/css/2.6ae34b62.chunk.css": "/React-Team-project/static/css/2.6ae34b62.chunk.css",
-    "static/js/2.6b485954.chunk.js": "/React-Team-project/static/js/2.6b485954.chunk.js",
-    "static/js/2.6b485954.chunk.js.map": "/React-Team-project/static/js/2.6b485954.chunk.js.map",
+    "static/js/2.3d593198.chunk.js": "/React-Team-project/static/js/2.3d593198.chunk.js",
+    "static/js/2.3d593198.chunk.js.map": "/React-Team-project/static/js/2.3d593198.chunk.js.map",
     "index.html": "/React-Team-project/index.html",
-    "precache-manifest.c7a29e21922391ca44bccbafb058994b.js": "/React-Team-project/precache-manifest.c7a29e21922391ca44bccbafb058994b.js",
+    "precache-manifest.26f5323245d46724bd15be42f9f062f1.js": "/React-Team-project/precache-manifest.26f5323245d46724bd15be42f9f062f1.js",
     "service-worker.js": "/React-Team-project/service-worker.js",
     "static/css/2.6ae34b62.chunk.css.map": "/React-Team-project/static/css/2.6ae34b62.chunk.css.map",
     "static/css/main.1b0be34b.chunk.css.map": "/React-Team-project/static/css/main.1b0be34b.chunk.css.map",
-    "static/js/2.6b485954.chunk.js.LICENSE.txt": "/React-Team-project/static/js/2.6b485954.chunk.js.LICENSE.txt",
+    "static/js/2.3d593198.chunk.js.LICENSE.txt": "/React-Team-project/static/js/2.3d593198.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/React-Team-project/static/media/outline-icons.ef60a4f6.woff",
     "static/media/gameImg.jpg": "/React-Team-project/static/media/gameImg.ea150d72.jpg",
     "static/media/logLogo.png": "/React-Team-project/static/media/logLogo.7848d07f.png",
-    "static/media/mainLogo.png": "/React-Team-project/static/media/mainLogo.e3c88aae.png"
+    "static/media/mainLogo.png": "/React-Team-project/static/media/mainLogo.e3c88aae.png",
+    "static/media/quiz1.jpg": "/React-Team-project/static/media/quiz1.da8d52c5.jpg",
+    "static/media/quiz2.jpg": "/React-Team-project/static/media/quiz2.5acf5d6c.jpg",
+    "static/media/quiz3.jpg": "/React-Team-project/static/media/quiz3.99b677d9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c847077c.js",
     "static/css/2.6ae34b62.chunk.css",
-    "static/js/2.6b485954.chunk.js",
+    "static/js/2.3d593198.chunk.js",
     "static/css/main.1b0be34b.chunk.css",
-    "static/js/main.9d81680b.chunk.js"
+    "static/js/main.18042102.chunk.js"
   ]
 }
