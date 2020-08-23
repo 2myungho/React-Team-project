@@ -112,7 +112,6 @@ class Quizitem extends Component {
       onSelect,
       onItemMouseOver,
       hoverquiz,
-      onremoveNext
     } = this.props;
     return (
       <ListItems>
