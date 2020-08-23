@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "084451645f521714e5b04e2582554432",
+    "revision": "9ca35d36c0e98927a2b2febaa542cbdf",
     "url": "/React-Team-project/index.html"
   },
   {
-    "revision": "7c88c94339b55945c004",
+    "revision": "1c654e05916dac506507",
     "url": "/React-Team-project/static/css/2.6ae34b62.chunk.css"
   },
   {
-    "revision": "f285797eb98dd798a29c",
-    "url": "/React-Team-project/static/css/main.d6bbf644.chunk.css"
+    "revision": "d40811f9ff1fe534e164",
+    "url": "/React-Team-project/static/css/main.1b0be34b.chunk.css"
   },
   {
-    "revision": "7c88c94339b55945c004",
-    "url": "/React-Team-project/static/js/2.79675857.chunk.js"
+    "revision": "1c654e05916dac506507",
+    "url": "/React-Team-project/static/js/2.6b485954.chunk.js"
   },
   {
-    "revision": "b7f85a75a85233c369396e5fa483c34f",
-    "url": "/React-Team-project/static/js/2.79675857.chunk.js.LICENSE.txt"
+    "revision": "eb9a41d2c405db40c59cb30a8d8b351e",
+    "url": "/React-Team-project/static/js/2.6b485954.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f285797eb98dd798a29c",
-    "url": "/React-Team-project/static/js/main.aab4bd5e.chunk.js"
+    "revision": "d40811f9ff1fe534e164",
+    "url": "/React-Team-project/static/js/main.a7420d0a.chunk.js"
   },
   {
     "revision": "2e95cabb421fc9592534",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Team-project/static/media/flags.9c74e172.png"
   },
   {
+    "revision": "ea150d7241440055b0d610a6449236e0",
+    "url": "/React-Team-project/static/media/gameImg.ea150d72.jpg"
+  },
+  {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
     "url": "/React-Team-project/static/media/icons.0ab54153.woff2"
   },
@@ -70,6 +74,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "faff92145777a3cbaf8e7367b4807987",
     "url": "/React-Team-project/static/media/icons.faff9214.woff"
+  },
+  {
+    "revision": "7848d07f7e201ea64262998e544d7e98",
+    "url": "/React-Team-project/static/media/logLogo.7848d07f.png"
+  },
+  {
+    "revision": "e3c88aae3ebecdbf5a9d6829197b8432",
+    "url": "/React-Team-project/static/media/mainLogo.e3c88aae.png"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
