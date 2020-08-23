@@ -136,9 +136,9 @@ class Detailinput extends Component {
                 <li className={"texts"}>Add question을 통해 퀴즈를 생성합니다.</li>
                 <li className={"texts"}>제목, 시간, 포인트, 문제 설정을 해줍니다.</li>
                 <li className={"texts"}>설정이 완료 되었으면 save를 반드시 해줍니다.</li>
-                <li className={"texts"}>Done 버튼을 눌러 Quiz 실행 화면으로 이동합니다..</li>
+                <li className={"texts"}>Done 버튼을 눌러 Quiz 실행 화면으로 이동하고, 원하는 번호의 퀴즈를 선택합니다.</li>
                 <li className={"texts"}>start Quiz Modal 버튼을 누르면 설정한 타이머가 작동합니다.</li>
-                <li className={"texts"}>즐겁게 사용해주시면 됩니다.</li>
+                <li className={"texts"}>즐겁게 사용해주세요.</li>
               </ul>
           </Grid.Column>
         </Grid>

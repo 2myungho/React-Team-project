@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <>
-      <Route component={MainPage} path="/" exact={true} />
+      <Route component={MainPage} path="/React-Team-project" exact={true} />
       <Route component={LogInPage} path="/Login" />
       <Route component={registerPage} path="/register" />
       <Route component={QuizPage} path="/Quiz" />

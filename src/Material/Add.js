@@ -3,6 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import styled from 'styled-components';
 import { Button } from "semantic-ui-react";
+import bool from '../image/bool.png'
+import select from '../image/select.png'
+
 
 const Style = styled.div`
 
@@ -72,8 +75,8 @@ export default function SimpleModal({onAddQuiz}) {
   const body = (
     <Style style={modalStyle} className={classes.paper}>
       <h2 id="simple-modal-title">Test Knowledge</h2>
-      <button onClick={handleClose}  className={"hover"}> <p><img src ='book_images/select.png' alt="addimg"/></p> Quiz <p> Give players several  answer alternatives to choose from </p></button>
-      <button onClick={handleClose}  className={"hover2"}> <p><img src ='book_images/bool.png' alt="addimg"/></p>True or False <p>Let players decide if the statement is true or false </p></button>
+      <button onClick={handleClose}  className={"hover"}> <p><img src ={select} alt="addimg"/></p> Quiz <p> Give players several  answer alternatives to choose from </p></button>
+      <button onClick={handleClose}  className={"hover2"}> <p><img src ={bool} alt="addimg"/></p>True or False <p>Let players decide if the statement is true or false </p></button>
     </Style>
   );
 

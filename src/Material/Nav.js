@@ -162,7 +162,7 @@ export default function PrimarySearchAppBar({gamestart,start}) {
       <AppBar position="static">
         <Toolbar>
           <Typography className={classes.title} variant="h6" noWrap>
-            <Link to="/" className="mainLink"><img src={mainLogo} alt={"mainLogo"} className={"logoImg"}/></Link>
+            <Link to="/React-Team-project" className="mainLink"><img src={mainLogo} alt={"mainLogo"} className={"logoImg"}/></Link>
           </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
@@ -184,7 +184,7 @@ export default function PrimarySearchAppBar({gamestart,start}) {
               <>
                 <Button variant="outlined" style={margin}>PreView</Button>
                 <Button variant="contained" color="secondary"  style={margin}>
-                  <Link to ="/" className={"exitColor"} >Exit</Link>
+                  <Link to ="/React-Team-project" className={"exitColor"} >Exit</Link>
                 </Button>
                 <ThemeProvider theme={theme} >
                 <Button variant="contained" color="primary" className={classes.margin} style={margin} onClick={()=>start(true)}>

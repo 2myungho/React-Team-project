@@ -175,7 +175,7 @@ export default function PrimarySearchAppBar({ login, onLoginClick }) {
             <MenuIcon style={svg} />
           </IconButton>
           <Typography className={classes.title} variant="h6" noWrap>
-            <Link to="/" className="mainLink"><img src={mainLogo} alt={"mainLogo"} className={"logoImg"}/></Link>
+            <Link to="/React-Team-project" className="mainLink"><img src={mainLogo} alt={"mainLogo"} className={"logoImg"}/></Link>
           </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>

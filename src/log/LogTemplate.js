@@ -60,7 +60,7 @@ class LogTemplate extends Component {
             <AuthTemplateBlock>
                 <WhiteBox>
                     <div className="logo-area">
-                        <Link to="/" className={"logoForm"}>
+                        <Link to="/React-Team-project" className={"logoForm"}>
                           <img src={logLogo} alt={"loginLogo"} className={"logoImg"}/>
                         </Link>
                     </div>
