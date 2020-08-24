@@ -88,6 +88,9 @@ export default function CenteredGrid({ login }) {
   const loginMove = () => {
     alert("로그인이 필요한 서비스입니다. 로그인 페이지로 이동합니다.")
   }
+  const notice = () =>{
+    alert("1920 해상도가 아닌 사용자 분들께서는 Ctrl + 마우스 휠을 이용해 브라우저를 줄이시면 더욱 쾌적한 게임을 즐기실 수 있습니다. 감사합니다. ")
+  }
 
   return (
     <Contents className={classes.root}>
@@ -114,7 +117,7 @@ export default function CenteredGrid({ login }) {
           <Paper className={classNames(classes.paper, "content_2")}>
             {login ?
               <Link to="/quiz">
-                <Button variant="contained" className={"buttonPosition"}>Create Quiz</Button>
+                <Button variant="contained" onClick={notice} className={"buttonPosition"}>Create Quiz</Button>
               </Link>
               :
               <Link to="/login">
@@ -138,6 +141,7 @@ export default function CenteredGrid({ login }) {
                   primary
                   disableElevation
                   className={"center"}
+                  onClick={notice}
                 >Create Quiz</Button>
                 </Link>
                 :

@@ -156,6 +156,21 @@ export default function Checkboxes({ quiz, onTotalScore,totalScore ,onNextQuiz})
     setChecked4(e.target.checked);
     e.target.checked === quiz.check4 ? setCheck4(true) : setCheck4(false);
   };
+  const falseChecked = () =>{
+    setChecked1(false)
+    setChecked2(false)
+    setChecked3(false)
+    setChecked4(false)
+  }
+  console.log("checked1 : " + checked1)
+  console.log("check1 : " + check1)
+  console.log("checked2 : " + checked2)
+  console.log("check2 : " + check2)
+  console.log("checked3 : " + checked3)
+  console.log("check3 : " + check3)
+  console.log("checked4 : " + checked4)
+  console.log("check4 : " + check4)
+
   const handleCorrect = () => {
      totalScore = 0;
     check1 && true
@@ -180,42 +195,17 @@ export default function Checkboxes({ quiz, onTotalScore,totalScore ,onNextQuiz})
       onTotalScore(totalScore)
 
 //checkBox 초기화
-      check1 && true
-      ? check2 && true
-        ? check3 && true
-          ? check4 && true
-            ? setChecked1(false)
-            : setChecked1(false)
-          : setChecked1(false)
-        : setChecked1(false)
-      : setChecked1(false)
-      check1 && true
-      ? check2 && true
-        ? check3 && true
-          ? check4 && true
-            ? setChecked2(false)
-            : setChecked2(false)
-          : setChecked2(false)
-        : setChecked2(false)
-      : setChecked2(false)
-      check1 && true
-      ? check2 && true
-        ? check3 && true
-          ? check4 && true
-            ? setChecked3(false)
-            : setChecked3(false)
-          : setChecked3(false)
-        : setChecked3(false)
-      : setChecked3(false)
-      check1 && true
-      ? check2 && true
-        ? check3 && true
-          ? check4 && true
-            ? setChecked4(false)
-            : setChecked4(false)
-          : setChecked4(false)
-        : setChecked4(false)
-      : setChecked4(false)
+    check1 && true
+    ? check2 && true
+      ? check3 && true
+        ? check4 && true
+          ? falseChecked()
+          : totalScore += 0
+          : totalScore += 0
+        : totalScore += 0
+      : totalScore += 0
+
+
 
       check1 && true
       ? check2 && true
@@ -227,8 +217,9 @@ export default function Checkboxes({ quiz, onTotalScore,totalScore ,onNextQuiz})
         : totalScore += 0
       : totalScore += 0
       
-      
   };
+  
+    
   return (
     <form noValidate autoComplete="off">
       <div className={classes.styleCheck} style={styleCheck}>
